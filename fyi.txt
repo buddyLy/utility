@@ -1,0 +1,19 @@
+To effectively write your code to ease debugging
+* functionalize your code through separation of concerns, will help with code reusability as well
+* check return code of all commands, either have warning or error out completely  
+* when command erred out, log the error message by redirecting standard error to std out
+* log out message include timestamp, process id, program name 
+* have separate error file and regular log file, log out line numbers when encounter error
+* declare variable as local
+
+Good practices
+* have cleanup function, including purge process 
+* when writing large files to directory, check for acceptable disk size
+* have retry logic up to x times 
+* have max number of errors to gracefully kill programs
+* signal trapping to capture why program exit, such as someone accidentlly ctrl-c, or administrator kills it, or kill by another program 
+
+
+single responsibility
+what to log
+check all commands

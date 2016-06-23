@@ -1,0 +1,13 @@
+MGS1H07 didc
+ MGS1243 didc
+  MGSPH07I didc
+   MGS1H06 didc
+    MGS1H07 didc
+     MGS1243 didc
+
+  MGS0186 marketing
+   MGS1245  marketing
+
+DIDC - they will take load jobs into hadoop, teradata, greenplum, datawarehouse, data fabric.  
+	 - extract will depends 
+
